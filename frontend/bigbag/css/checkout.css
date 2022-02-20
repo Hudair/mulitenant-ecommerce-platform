@@ -1,0 +1,199 @@
+.section {
+    position: relative;
+    padding: 50px 0
+}
+
+.bigbag_notice {
+    background-color: #f0f2f3;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px
+}
+
+.bigbag_notice p {
+    margin: 0;
+    font-weight: 600
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #838383
+}
+
+a {
+    color: var(--main-theme-color);
+    text-decoration: none;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.bigbag_notice-content {
+    margin-bottom: 30px;
+    display: none
+}
+
+.form-group {
+    margin-bottom: 20px
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #18181d
+}
+
+.form-control {
+    height: 50px;
+    padding: 8px 15px;
+    border-radius: 0;
+    border: 1px solid #f0f2f3;
+    border-radius: 5px;
+    width: 100%;
+    color: #6e6e6e;
+    background-color: #fff;
+    letter-spacing: .1px;
+    font-size: 14px
+}
+
+.bigbag_notice {
+    background-color: #f0f2f3;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px
+}
+
+h4 {
+    font-size: 26px;
+    line-height: 1.4
+}
+
+table {
+    width: 100%;
+    margin-bottom: 30px
+}
+
+table th {
+    font-weight: 600;
+    color: #18181d;
+    font-family: Montserrat, sans-serif;
+    border: 1px solid #f0f2f3
+}
+
+table td,
+table th {
+    padding: 15px;
+    vertical-align: middle;
+    background-color: #fff
+}
+
+table td {
+    border: 1px solid #f0f2f3
+}
+
+table td,
+table th {
+    padding: 15px;
+    vertical-align: middle;
+    background-color: #fff
+}
+
+.bigbag_cart-product-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.bigbag_cart-product-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.bigbag_cart-product-wrapper h6 {
+    margin-bottom: 0;
+    font-size: 14px
+}
+
+.bigbag_cart-product-wrapper h6 a {
+    color: #18181d
+}
+
+.form-group {
+    margin-bottom: 20px
+}
+
+.small,
+small {
+    line-height: 1.7
+}
+
+.bigbag_btn-custom.primary {
+    background-color: var(--main-theme-color)
+}
+
+.bigbag_btn-custom {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    position: relative;
+    background-color: var(--main-theme-color);
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 30px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-transform: uppercase;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 3px 24px rgba(0, 0, 0, .1)
+}
+
+table th {
+    font-weight: 600;
+    color: #18181d;
+    font-family: Montserrat, sans-serif;
+    border: 1px solid #f0f2f3
+}
+
+table td,
+table th {
+    padding: 15px;
+    vertical-align: middle;
+    background-color: #fff
+}
+
+.wc_payment_method:not(:last-child) {
+    padding-bottom: 20px
+}
+
+.payment_box {
+    background-color: #e9e9e9;
+    position: relative;
+    padding: 15px;
+    margin-top: 18px
+}
+
+.payment_box p:last-child {
+    margin-bottom: 0
+}
+
+.payment_box::before {
+    content: '';
+    border-width: 0 9px 10px 9px;
+    border-style: solid;
+    border-color: transparent transparent #e9e9e9 transparent;
+    position: absolute;
+    top: -10px;
+    left: 25px
+}

@@ -1,0 +1,30 @@
+.padding-bottom-3x {
+ padding-bottom: 72px !important;
+}
+
+.card {
+ border-radius: 7px !important;
+ border-color: #e1e7ec;
+}
+
+.padding-top-2x {
+ padding-top: 48px !important;
+}
+
+.padding-bottom-1x {
+ padding-bottom: 24px !important;
+}
+
+.padding-top-1x {
+ padding-top: 24px !important;
+}
+
+.text-center .btn,
+.text-center .btn-group {
+ margin-right: 6px;
+ margin-left: 6px;
+}
+
+.btn-outline-secondary {
+ border-color: #e1e7ec;
+}

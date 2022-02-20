@@ -1,0 +1,173 @@
+ .site-main .main-container {
+     padding-top: 70px;
+     padding-bottom: 70px;
+ }
+
+ .site-main ul, ol {
+     margin: 0;
+     padding-left: 19px;
+ }
+
+.site-main nav.bigbag-MyAccount-navigation ul li {
+     list-style: none;
+     margin-bottom: 15px;
+     border-bottom: 1px solid #ddd;
+     padding-bottom: 15px;
+ }
+
+.site-main nav.bigbag-MyAccount-navigation ul li a.active {
+     color: var(--main-theme-color);
+ }
+
+
+.site-main label {
+     font-weight: 600;
+     color: #000;
+ }
+
+.site-main a, body .az_custom_heading a {
+     color: #000;
+     text-decoration: none;
+     -webkit-transition: color 0.25s, border-color 0.25s, background-color 0.25s, opacity 0.25s, width 0.25s ease 0s;
+     -moz-transition: color 0.25s, border-color 0.25s, background-color 0.25s, opacity 0.25s, width 0.25s ease 0s;
+     -o-transition: color 0.25s, border-color 0.25s, background-color 0.25s, opacity 0.25s, width 0.25s ease 0s;
+     transition: color 0.25s, border-color 0.25s, background-color 0.25s, opacity 0.25s, width 0.25s ease 0s;
+ }
+
+.site-main a:hover, a:focus, a:active {
+     text-decoration: none;
+     outline: none;
+     color: var(--main-theme-color);
+ }
+
+ .site-main h1, h2, h3, h4, h5, h6 {
+     line-height: 1.2;
+     color: #000;
+     margin-top: 12px;
+     margin-bottom: 18px;
+     font-weight: normal;
+ }
+
+.site-main blockquote, q {
+     color: #000;
+     font-size: 14px;
+     font-weight: 600;
+     font-style: italic;
+     padding: 15px 0 15px 20px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-left: 3px solid var(--main-theme-color);
+ }
+
+.site-main dt, dd {
+     line-height: 30px;
+ }
+
+ .site-main  table {
+     border: 1px solid #ebebeb;
+     border-collapse: collapse;
+     border-spacing: 0;
+     table-layout: auto;
+     width: 100%;
+     margin-bottom: 20px;
+ }
+
+.site-main  table thead {
+     background-color: #f8f8f8;
+ }
+
+ th,
+ td {
+     border: 1px solid #ebebeb;
+     padding: 10px;
+ }
+
+ @media (max-width: 991px) {
+     th,
+     td {
+         padding: 5px;
+     }
+ }
+
+ .site-main  .container {
+     max-width: 100%;
+ }
+
+ @media (min-width: 1280px) {
+  .site-main .container {
+         width: 1200px;
+     }
+ }
+
+ @media (max-width: 1199px) {
+ .site-main .row {
+         margin-left: -10px;
+         margin-right: -10px;
+     }
+ .site-main ul.products>[class^="col-"],
+     ul.products>[class*="col-"],
+     .row>[class^="col-"],
+     .row>[class*="col-"] {
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+ }
+
+ @media (max-width: 767px) {
+  .site-main .row {
+         margin-left: -5px;
+         margin-right: -5px;
+     }
+  .site-main ul.products>[class^="col-"],
+     ul.products>[class*="col-"],
+     .row>[class^="col-"],
+     .row>[class*="col-"] {
+         padding-left: 5px;
+         padding-right: 5px;
+     }
+ }
+ label {
+    font-weight: 600;
+    color: #000;
+}
+.form-row {
+    margin-bottom: 30px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-row > label {
+    display: block;
+    margin-bottom: 12px;
+    text-align: left;
+}
+.required {
+    color: red;
+    font-weight: normal;
+}
+.bigbag-input-wrapper > select, .bigbag-input-wrapper > input, .form-row > input {
+    width: 100%;
+    height: 52px;
+    line-height: 50px;
+}
+
+input[type="number"], input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="search"], input[type="url"], textarea, select {
+    border: 1px solid #ebebeb;
+    padding: 0 30px;
+    max-width: 100%;
+    background-color: transparent;
+    font-size: 14px;
+    color: #868686;
+    line-height: 40px;
+    border-radius: 0;
+}
+button.bigbag-Button.button {
+    height: 50px;
+    padding: 0 35px;
+    background: var(--main-theme-color);
+    color: #fff;
+    border-radius: 7px;
+}
+p {
+    margin-bottom: 20px;
+}
